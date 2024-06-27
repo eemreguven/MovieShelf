@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieShelf</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discover">Discover</string>
+    <string name="favorites">Favorites</string>
+    <string name="your_favorite_movies">Your Favorite Movies</string>
+    <string name="your_watch_list">Your Watch List</string>
+    <string name="watch_list">Watch List</string>
+    <string name="search_movie_hint">Search movie...</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="overview">Overview</string>
+    <string name="reviews">Reviews</string>
+    <string name="see_more">See More</string>
+    <string name="see_less">See Less</string>
+    <string name="no_reviews_available">No reviews available.</string>
+    <string name="release_date_not_available">No date</string>
+    <string name="runtime_not_available">0h 0m</string>
+    <string name="tagline_not_available">No tagline</string>
+    <string name="overview_not_available">No overview</string>
+    <string name="genres_not_available">No genres</string>
+    <string name="vote_average_not_available">0.0</string>
+    <string name="no_videos_available">No videos available for this movie</string>
+    <string name="added_to_favorites">Added to your favorites</string>
+    <string name="removed_from_favorites">Removed from your favorites</string>
+    <string name="added_to_watch_list">Added to your watch list</string>
+    <string name="removed_from_watch_list">Removed from your watch list</string>
+</resources>

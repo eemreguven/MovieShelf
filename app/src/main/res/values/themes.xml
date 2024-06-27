@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MovieShelf" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.MovieShelf" parent="Base.Theme.MovieShelf">
+        <item name="android:statusBarColor">
+            @color/black
+        </item>
+        <item name="android:fontFamily">@font/cuprum_regular</item>
+    </style>
+</resources>

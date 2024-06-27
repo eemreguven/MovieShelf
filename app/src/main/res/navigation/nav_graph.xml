@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.mrguven.movieshelf.ui.fragments.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" >
+        <action
+            android:id="@+id/action_discoverFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_discoverFragment_to_watchListFragment"
+            app:destination="@id/watchListFragment" />
+        <action
+            android:id="@+id/action_discoverFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.mrguven.movieshelf.ui.fragments.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/watchListFragment"
+        android:name="com.mrguven.movieshelf.ui.fragments.WatchListFragment"
+        android:label="fragment_watch_list"
+        tools:layout="@layout/fragment_watch_list" >
+        <action
+            android:id="@+id/action_watchListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_watchListFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.mrguven.movieshelf.ui.fragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="movieId"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true"/>
+        <action
+            android:id="@+id/action_detailsFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+        <action
+            android:id="@+id/action_detailsFragment_to_watchListFragment"
+            app:destination="@id/watchListFragment" />
+        <action
+            android:id="@+id/action_detailsFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+</navigation>

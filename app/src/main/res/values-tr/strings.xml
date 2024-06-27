@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieShelf</string>
+    <string name="hello_blank_fragment">Merhaba boş fragment</string>
+    <string name="discover">Keşfet</string>
+    <string name="favorites">Favoriler</string>
+    <string name="your_favorite_movies">Favori Filmlerin</string>
+    <string name="your_watch_list">İzleme Listen</string>
+    <string name="watch_list">İzleme Listesi</string>
+    <string name="search_movie_hint">Film ara...</string>
+    <string name="popular_movies">Popüler Filmler</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="reviews">İncelemeler</string>
+    <string name="see_more">Daha Fazla Göster</string>
+    <string name="see_less">Daha Az Göster</string>
+    <string name="no_reviews_available">Henüz inceleme bulunmamaktadır.</string>
+    <string name="release_date_not_available">Tarih yok</string>
+    <string name="runtime_not_available">0h 0m</string>
+    <string name="tagline_not_available">Kısa açıklama yok</string>
+    <string name="vote_average_not_available">0.0</string>
+    <string name="overview_not_available">Genel bakış yok</string>
+    <string name="genres_not_available">Tür yok</string>
+    <string name="no_videos_available">Bu film için izlenebilir video yok</string>
+    <string name="added_to_favorites">Favorilerine eklendi</string>
+    <string name="removed_from_favorites">Favorilerınden çıkarıldı</string>
+    <string name="added_to_watch_list">İzleme listene eklendi</string>
+    <string name="removed_from_watch_list">İzleme listenden çıkarıldı</string>
+</resources>
