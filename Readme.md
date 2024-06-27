@@ -18,11 +18,12 @@ MovieShelf is an Android app that lets users explore and manage their favorite m
 
 ## Screenshots
 
-### Grid View
+### Recycler View
+#### Grid Type
 <img src="screenshots/grid_view.jpg" width="200">
 <img src="screenshots/grid_view_horizontal.jpg" width="200">
 
-### List View
+#### List Type
 <img src="screenshots/list_view.jpg" width="200">
 <img src="screenshots/list_view_horizontal.jpg" width="200">
 
